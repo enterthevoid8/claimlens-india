@@ -21,7 +21,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-api = ["fastapi>=0.111", "uvicorn[standard]>=0.30", "python-multipart>=0.0.9", "pyjwt[crypto]>=2.8"]
+api = ["fastapi>=0.162.0", "uvicorn[standard]>=0.30", "python-multipart>=0.0.9", "pyjwt[crypto]>=2.8"]
 azure = [
   "azure-identity>=1.17",
   "azure-storage-blob>=12.20",
