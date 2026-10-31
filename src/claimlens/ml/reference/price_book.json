@@ -1,0 +1,515 @@
+{
+ "city_multiplier": {
+  "Ahmedabad": 0.95,
+  "Bengaluru": 1.15,
+  "Chennai": 1.05,
+  "Delhi": 1.2,
+  "Hyderabad": 1.05,
+  "Indore": 0.8,
+  "Jaipur": 0.85,
+  "Lucknow": 0.8,
+  "Mumbai": 1.25,
+  "Nagpur": 0.75,
+  "Patna": 0.7,
+  "Pune": 1.0
+ },
+ "items": {
+  "anaesthesia|angioplasty": {
+   "category": "anaesthesia",
+   "median": 26100.0
+  },
+  "anaesthesia|appendectomy": {
+   "category": "anaesthesia",
+   "median": 5400.0
+  },
+  "anaesthesia|cataract": {
+   "category": "anaesthesia",
+   "median": 2520.0
+  },
+  "anaesthesia|hernia": {
+   "category": "anaesthesia",
+   "median": 4950.0
+  },
+  "anaesthesia|hysterectomy": {
+   "category": "anaesthesia",
+   "median": 10350.0
+  },
+  "anaesthesia|lithotripsy": {
+   "category": "anaesthesia",
+   "median": 6300.0
+  },
+  "anaesthesia|orif_femur": {
+   "category": "anaesthesia",
+   "median": 17100.0
+  },
+  "anaesthesia|rhinoplasty": {
+   "category": "anaesthesia",
+   "median": 13500.0
+  },
+  "anaesthesia|rootcanal": {
+   "category": "anaesthesia",
+   "median": 1440.0
+  },
+  "anaesthesia|tkr": {
+   "category": "anaesthesia",
+   "median": 20700.0
+  },
+  "anaesthesia|tonsillectomy": {
+   "category": "anaesthesia",
+   "median": 3780.0
+  },
+  "cbc": {
+   "category": "diagnostic",
+   "median": 350
+  },
+  "consumables|angioplasty": {
+   "category": "consumable",
+   "median": 23200.0
+  },
+  "consumables|appendectomy": {
+   "category": "consumable",
+   "median": 4800.0
+  },
+  "consumables|cataract": {
+   "category": "consumable",
+   "median": 2240.0
+  },
+  "consumables|hernia": {
+   "category": "consumable",
+   "median": 4400.0
+  },
+  "consumables|hysterectomy": {
+   "category": "consumable",
+   "median": 9200.0
+  },
+  "consumables|lithotripsy": {
+   "category": "consumable",
+   "median": 5600.0
+  },
+  "consumables|orif_femur": {
+   "category": "consumable",
+   "median": 15200.0
+  },
+  "consumables|rhinoplasty": {
+   "category": "consumable",
+   "median": 12000.0
+  },
+  "consumables|rootcanal": {
+   "category": "consumable",
+   "median": 1280.0
+  },
+  "consumables|tkr": {
+   "category": "consumable",
+   "median": 18400.0
+  },
+  "consumables|tonsillectomy": {
+   "category": "consumable",
+   "median": 3360.0
+  },
+  "creatinine": {
+   "category": "diagnostic",
+   "median": 300
+  },
+  "crp": {
+   "category": "diagnostic",
+   "median": 600
+  },
+  "ct_scan": {
+   "category": "diagnostic",
+   "median": 5500
+  },
+  "dengue_ns1": {
+   "category": "diagnostic",
+   "median": 900
+  },
+  "doctor_visit": {
+   "category": "doctor_fee",
+   "median": 900
+  },
+  "documentation": {
+   "category": "admin",
+   "median": 300
+  },
+  "ecg": {
+   "category": "diagnostic",
+   "median": 400
+  },
+  "echo": {
+   "category": "diagnostic",
+   "median": 2200
+  },
+  "hba1c": {
+   "category": "diagnostic",
+   "median": 650
+  },
+  "icu": {
+   "category": "icu",
+   "median": 9000
+  },
+  "implant|angioplasty": {
+   "category": "procedure",
+   "median": 87000.0
+  },
+  "implant|appendectomy": {
+   "category": "procedure",
+   "median": 18000.0
+  },
+  "implant|cataract": {
+   "category": "procedure",
+   "median": 8400.0
+  },
+  "implant|hernia": {
+   "category": "procedure",
+   "median": 16500.0
+  },
+  "implant|hysterectomy": {
+   "category": "procedure",
+   "median": 34500.0
+  },
+  "implant|lithotripsy": {
+   "category": "procedure",
+   "median": 21000.0
+  },
+  "implant|orif_femur": {
+   "category": "procedure",
+   "median": 57000.0
+  },
+  "implant|rhinoplasty": {
+   "category": "procedure",
+   "median": 45000.0
+  },
+  "implant|rootcanal": {
+   "category": "procedure",
+   "median": 4800.0
+  },
+  "implant|tkr": {
+   "category": "procedure",
+   "median": 69000.0
+  },
+  "implant|tonsillectomy": {
+   "category": "procedure",
+   "median": 12600.0
+  },
+  "inj_ceftriaxone": {
+   "category": "medicine",
+   "median": 85
+  },
+  "inj_pantoprazole": {
+   "category": "medicine",
+   "median": 70
+  },
+  "iv_fluid": {
+   "category": "medicine",
+   "median": 60
+  },
+  "mri": {
+   "category": "diagnostic",
+   "median": 9000
+  },
+  "nursing": {
+   "category": "nursing",
+   "median": 700
+  },
+  "ot|angioplasty": {
+   "category": "ot",
+   "median": 34800.0
+  },
+  "ot|appendectomy": {
+   "category": "ot",
+   "median": 7200.0
+  },
+  "ot|cataract": {
+   "category": "ot",
+   "median": 3360.0
+  },
+  "ot|hernia": {
+   "category": "ot",
+   "median": 6600.0
+  },
+  "ot|hysterectomy": {
+   "category": "ot",
+   "median": 13800.0
+  },
+  "ot|lithotripsy": {
+   "category": "ot",
+   "median": 8400.0
+  },
+  "ot|orif_femur": {
+   "category": "ot",
+   "median": 22800.0
+  },
+  "ot|rhinoplasty": {
+   "category": "ot",
+   "median": 18000.0
+  },
+  "ot|rootcanal": {
+   "category": "ot",
+   "median": 1920.0
+  },
+  "ot|tkr": {
+   "category": "ot",
+   "median": 27600.0
+  },
+  "ot|tonsillectomy": {
+   "category": "ot",
+   "median": 5040.0
+  },
+  "pharmacy": {
+   "category": "medicine",
+   "median": 1800
+  },
+  "registration": {
+   "category": "admin",
+   "median": 500
+  },
+  "room_deluxe": {
+   "category": "room",
+   "median": 8500
+  },
+  "room_general": {
+   "category": "room",
+   "median": 1500
+  },
+  "room_private": {
+   "category": "room",
+   "median": 5000
+  },
+  "room_semi": {
+   "category": "room",
+   "median": 3000
+  },
+  "surgeon|angioplasty": {
+   "category": "surgeon",
+   "median": 69600.0
+  },
+  "surgeon|appendectomy": {
+   "category": "surgeon",
+   "median": 14400.0
+  },
+  "surgeon|cataract": {
+   "category": "surgeon",
+   "median": 6720.0
+  },
+  "surgeon|hernia": {
+   "category": "surgeon",
+   "median": 13200.0
+  },
+  "surgeon|hysterectomy": {
+   "category": "surgeon",
+   "median": 27600.0
+  },
+  "surgeon|lithotripsy": {
+   "category": "surgeon",
+   "median": 16800.0
+  },
+  "surgeon|orif_femur": {
+   "category": "surgeon",
+   "median": 45600.0
+  },
+  "surgeon|rhinoplasty": {
+   "category": "surgeon",
+   "median": 36000.0
+  },
+  "surgeon|rootcanal": {
+   "category": "surgeon",
+   "median": 3840.0
+  },
+  "surgeon|tkr": {
+   "category": "surgeon",
+   "median": 55200.0
+  },
+  "surgeon|tonsillectomy": {
+   "category": "surgeon",
+   "median": 10080.0
+  },
+  "tab_paracetamol": {
+   "category": "medicine",
+   "median": 3
+  },
+  "usg_abdomen": {
+   "category": "diagnostic",
+   "median": 1100
+  },
+  "xray_chest": {
+   "category": "diagnostic",
+   "median": 500
+  }
+ },
+ "matchers": {
+  "anaesthesia": {
+   "phrases": [
+    "anaesthesia charges"
+   ],
+   "proc_linked": true
+  },
+  "cbc": {
+   "phrases": [
+    "cbc (complete blood count)"
+   ]
+  },
+  "consumables": {
+   "phrases": [
+    "surgical consumables kit"
+   ],
+   "proc_linked": true
+  },
+  "creatinine": {
+   "phrases": [
+    "serum creatinine"
+   ]
+  },
+  "crp": {
+   "phrases": [
+    "crp test"
+   ]
+  },
+  "ct_scan": {
+   "phrases": [
+    "ct scan"
+   ]
+  },
+  "dengue_ns1": {
+   "phrases": [
+    "dengue ns1 antigen"
+   ]
+  },
+  "doctor_visit": {
+   "phrases": [
+    "doctor visit charges",
+    "consultant visit charges"
+   ]
+  },
+  "documentation": {
+   "phrases": [
+    "documentation charges"
+   ]
+  },
+  "ecg": {
+   "phrases": [
+    "ecg"
+   ]
+  },
+  "echo": {
+   "phrases": [
+    "2d echo"
+   ]
+  },
+  "hba1c": {
+   "phrases": [
+    "hba1c test"
+   ]
+  },
+  "icu": {
+   "phrases": [
+    "icu charges",
+    "intensive care unit charges"
+   ]
+  },
+  "implant": {
+   "phrases": [
+    "implant charges"
+   ],
+   "proc_linked": true
+  },
+  "inj_ceftriaxone": {
+   "phrases": [
+    "injection ceftriaxone 1g"
+   ]
+  },
+  "inj_pantoprazole": {
+   "phrases": [
+    "injection pantoprazole 40mg"
+   ]
+  },
+  "iv_fluid": {
+   "phrases": [
+    "iv fluids ns 500ml",
+    "iv fluid - normal saline 500ml"
+   ]
+  },
+  "mri": {
+   "phrases": [
+    "mri scan"
+   ]
+  },
+  "nursing": {
+   "phrases": [
+    "nursing charges",
+    "nursing care charges"
+   ]
+  },
+  "ot": {
+   "phrases": [
+    "operation theatre charges"
+   ],
+   "proc_linked": true
+  },
+  "pharmacy": {
+   "phrases": [
+    "pharmacy - medicines",
+    "medicines and drugs"
+   ]
+  },
+  "registration": {
+   "phrases": [
+    "registration and admission fee"
+   ]
+  },
+  "room_deluxe": {
+   "phrases": [
+    "deluxe suite"
+   ]
+  },
+  "room_general": {
+   "phrases": [
+    "general ward"
+   ]
+  },
+  "room_private": {
+   "phrases": [
+    "private"
+   ]
+  },
+  "room_semi": {
+   "phrases": [
+    "semi private"
+   ]
+  },
+  "surgeon": {
+   "phrases": [
+    "surgeon fee"
+   ],
+   "proc_linked": true
+  },
+  "tab_paracetamol": {
+   "phrases": [
+    "tablet paracetamol 650mg"
+   ]
+  },
+  "usg_abdomen": {
+   "phrases": [
+    "usg abdomen"
+   ]
+  },
+  "xray_chest": {
+   "phrases": [
+    "x-ray chest"
+   ]
+  }
+ },
+ "proc_aliases": {
+  "Angioplasty with stent": "angioplasty",
+  "Cosmetic rhinoplasty": "rhinoplasty",
+  "Hernioplasty (mesh repair)": "hernia",
+  "Laparoscopic appendectomy": "appendectomy",
+  "ORIF with intramedullary nail": "orif_femur",
+  "Phacoemulsification with IOL": "cataract",
+  "Root canal treatment (dental)": "rootcanal",
+  "Tonsillectomy": "tonsillectomy",
+  "Total knee replacement": "tkr",
+  "Total laparoscopic hysterectomy": "hysterectomy",
+  "Ureteroscopic lithotripsy": "lithotripsy"
+ },
+ "sigma": 0.2,
+ "version": "synthetic-1"
+}

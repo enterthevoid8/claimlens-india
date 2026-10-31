@@ -1,0 +1,24 @@
+# Standard comprehensive product (synthetic, not a real insurer's terms).
+product_name: Shield Plus
+copay_pct: 0
+room_rent_cap_pct_of_sum_insured: 1.0     # per day, as % of sum insured
+room_rent_cap_fixed: null
+initial_waiting_days: 30
+pre_existing_waiting_days: 1095
+preauth_required_above: 100000
+waiting_periods:
+  - {condition: Cataract, keywords: [cataract, phaco], days: 730}
+  - {condition: Hernia, keywords: [hernia, hernioplasty], days: 730}
+  - {condition: Kidney stones, keywords: [calculus, lithotripsy, urolithiasis, renal stone, kidney stone], days: 730}
+  - {condition: Joint replacement, keywords: [knee replacement, hip replacement, arthroplasty], days: 1095}
+  - {condition: Hysterectomy, keywords: [hysterectomy, fibroid], days: 730}
+  - {condition: ENT disorders, keywords: [tonsillectomy, sinusitis, septoplasty, fess], days: 730}
+exclusions:
+  - {code: COSM, title: Cosmetic or aesthetic treatment, keywords: [cosmetic, aesthetic, rhinoplasty, liposuction, botox], clause: "3.1"}
+  - {code: DENT, title: Dental treatment (non-accidental), keywords: [dental, root canal, tooth extraction, orthodontic], clause: "3.2"}
+  - {code: INFR, title: Infertility and assisted reproduction, keywords: [infertility, ivf, iui], clause: "3.3"}
+  - {code: OBES, title: Obesity and weight-loss surgery, keywords: [bariatric, obesity surgery, weight loss surgery], clause: "3.4"}
+  - {code: SUBS, title: Substance abuse treatment, keywords: [de-addiction, alcohol dependence, substance abuse], clause: "3.5"}
+sublimits:
+  - {procedure: Cataract surgery, keywords: [cataract, phaco], max_amount: 40000, clause: "6.1"}
+  - {procedure: Normal delivery, keywords: [normal delivery, vaginal delivery], max_amount: 50000, clause: "6.1"}

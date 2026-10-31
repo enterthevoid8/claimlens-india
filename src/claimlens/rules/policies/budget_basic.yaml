@@ -1,0 +1,20 @@
+# Entry-level product: fixed room cap, tighter limits (synthetic).
+product_name: Budget Basic
+copay_pct: 10
+room_rent_cap_pct_of_sum_insured: null
+room_rent_cap_fixed: 3000
+initial_waiting_days: 30
+pre_existing_waiting_days: 1460
+preauth_required_above: 50000
+waiting_periods:
+  - {condition: Cataract, keywords: [cataract, phaco], days: 1095}
+  - {condition: Hernia, keywords: [hernia, hernioplasty], days: 1095}
+  - {condition: Kidney stones, keywords: [calculus, lithotripsy, urolithiasis, renal stone, kidney stone], days: 1095}
+  - {condition: Hysterectomy, keywords: [hysterectomy, fibroid], days: 1095}
+exclusions:
+  - {code: COSM, title: Cosmetic or aesthetic treatment, keywords: [cosmetic, aesthetic, rhinoplasty, liposuction, botox], clause: "3.1"}
+  - {code: DENT, title: Dental treatment (non-accidental), keywords: [dental, root canal, tooth extraction, orthodontic], clause: "3.2"}
+  - {code: INFR, title: Infertility and assisted reproduction, keywords: [infertility, ivf, iui], clause: "3.3"}
+  - {code: OBES, title: Obesity and weight-loss surgery, keywords: [bariatric, obesity surgery, weight loss surgery], clause: "3.4"}
+sublimits:
+  - {procedure: Cataract surgery, keywords: [cataract, phaco], max_amount: 30000, clause: "6.1"}
